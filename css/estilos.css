@@ -1,0 +1,135 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+   /*  background-color: #2196F3; */
+    padding: 10px;
+    }
+.grid-item {
+    /* background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8); */
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    }
+body {
+    background-color: rgb(200, 255, 237);
+     margin: 20px;
+    }
+h1 {
+    text-align: center;
+     margin-bottom: 100px;
+     font-family: 'Irish Grover', cursive;
+     font-size: 450%;
+    }
+.foto{
+    width: 300px;
+    height:300px;
+    border-style: groove;
+    margin: 10px;
+    padding: 5px;
+     }
+.cabeza{
+         display: flex;
+         justify-content: center;
+     }
+.logo{
+    width: 50px;
+    height:50px;
+    margin: 35px;
+    padding: 5px;  
+}
+.namePrice{
+    font-family: 'Irish Grover', cursive;
+    color: teal;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+.compras{
+    border-style: groove;
+    border-radius: 8px;
+    font-size: 40px;
+    margin: 45px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    font-family: 'Irish Grover', cursive;
+    background-color: rgb(158, 206, 207);
+    width: min-content;
+}
+
+
+
+/* estilos compras */
+.gridContainer {
+    display: grid;
+    grid-template-columns: auto auto  auto;
+   /*  background-color: #2196F3; */
+    padding: 10px;
+    }
+.gridCompras {
+     padding: 20px;
+    font-size: 30px;
+    text-align: left;
+    }
+
+h2{
+    font-family: 'Irish Grover', cursive;
+    color: teal;
+    font-size: larger;
+}
+
+h3{
+    font-family: 'Irish Grover', cursive;
+    color: teal;
+    margin: 5px;
+}
+
+input, select, button{
+    font-family: 'Irish Grover', cursive;
+   }
+
+.compraBody{
+    margin-left: 50px;
+}
+
+.tituloMedida{
+    font-family: 'Irish Grover', cursive;
+    color: teal;
+    margin-bottom: 5px;
+    
+}
+
+.desplegable{
+    background-color: white;
+    margin-bottom: 15px;
+}
+
+.nameTotal{
+    font-size: 25px;
+}
+
+form{
+    margin-left: 15px;
+}
+
+.entrada{
+    width: 300px;
+}
+.inicio{
+    width: min-content;
+    border-style: groove;
+    border-radius: 8px;
+    font-size: 30px;
+    padding: 5px;
+  /*   margin: 10px; */
+    text-align: center;
+    /* display: flex;
+    justify-content: center; */
+    text-decoration: none;
+    color: black;
+    font-family: 'Irish Grover', cursive;
+    background-color: rgb(158, 206, 207);
+}

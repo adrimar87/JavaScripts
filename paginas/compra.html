@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compras</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+    
+</head>
+<body class="compraBody">
+
+    <div  class="cabeza">
+        <h1 id="tituloPrinc">Compras</h1> <!-- Titulo Pagina -->
+        <img  class="logo" src="../multimedia/logo.png" alt="">
+    </div>
+    
+
+     <divclass="gridCompras">  <!-- link a compras -->    
+        <nav><a href="../inicio.html" class="inicio">Pinturas</a></nav>
+    </div>
+
+    
+
+     <div class="gridContainer">
+        <div id="selectPaint"class="gridCompras">
+            <h2>Seleccionar Arte</h2>   
+                   
+           
+        </div><!--   seleccionar compra -->
+
+
+        <div class="gridCompras"> <!-- consulta el precio y el detalle basado en can clicks -->
+            
+            <h2>Consultar factura</h2>            
+        
+            <div id=boton  ></div>
+            
+            <p id=nome style="color: teal; font-family:cursive; font-size: large; font-weight: bolder;"   ></p>  <!-- nombre pintura seleccionada -->
+            <p id=totalPin style="color: teal; font-family:cursive;font-size: large;" ></p>   <!-- precio -->
+            <p id=imposto style="color: teal; font-family:cursive; font-size: large;" ></p>  <!-- impuesto -->
+            <p id=descu style="color: teal; font-family:cursive; font-size: large; "   ></p>  <!-- descuento pintura -->
+            <p id=totales style="color: teal; font-family:cursive; font-size: large;"   ></p>  <!-- total compra -->
+            
+
+         
+        </div>
+        <div class="gridCompras"> <!-- captura datos factura -->
+             <h2>Datos Facturacion</h2>
+             <form id="factura">
+                    <h3>Nombre:</h3>
+                        <input class="entrada" type="text" id="nombre">
+                    <h3>Email:</h3>
+                        <input   class="entrada" type="email" id="correo">  
+                        <div id="aviso"></div>
+                    <h3>Telefono:</h3>
+                        <input  class="entrada"  type="tel"  id="phone" >
+                    <h3>Forma de Pago:</h3>
+                        <select name="metodoPago" class="desplegable" id="pago">
+                                <option value="Debito">Debito</option> 
+                                <option value="Credito">Credito</option> 
+                                <option value="Mercado Pago">Mercado Pago</option> 
+                                <option value="RapiPago">RapiPago</option> 
+                        </select>
+                    <div>
+                        <button type="button" value="Enviar" id="btDatos" onclick="datosCliente()" >Enviar</button>
+                    </div>
+            </form>
+        </div>
+       
+     </div>
+     <script src="../js/jsquery.js"></script>
+     <script src="../js/compras.js"></script>
+</body>
+</html>
